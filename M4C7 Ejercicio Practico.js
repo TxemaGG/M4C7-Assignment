@@ -5,13 +5,13 @@ Si el número creado es mayor que 50, la consola registra "¡El número es mayor
 Si es más pequeño, la consola registra "¡El número es menor que 50!
 */
 
-function calcularYComparar() {
-    let suma1 = 5 + 3;  
-    let suma2 = 4 + 2;  
+function calcularYvalorar() {
+    let suma1 = 8 + 10;  
+    let suma2 = 9 + 9;  
     
-    let resultado = suma1 * suma2; 
+    let result = suma1 * suma2; 
     
-    if (resultado > 50) {
+    if (result > 50) {
       console.log("¡El número es mayor que 50!");
     } else {
       console.log("¡El número es menor que 50!");
